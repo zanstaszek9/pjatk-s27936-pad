@@ -18,7 +18,6 @@ with tab1:
 
     submitted = st.form_submit_button("Submit")
     if submitted:
-        success_notification = '<p style="color:Green; font-size: 22px">Succesful save!</p>'
         st.success("Succesful save!")
 
 with tab2:
